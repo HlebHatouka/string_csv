@@ -110,7 +110,7 @@ int main(int argc, char *argv[])
         std::cerr << e.what() << std::endl;
         exit(1);
     }
-    catch (char *e)
+    catch (const char *e)
     {
         std::cerr << e << std::endl;
         exit(1);
