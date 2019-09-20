@@ -193,6 +193,7 @@ void read_data(const std::string &path,
                                     number, date, status));
         }
     }
+    fin.close();
 }
 
 template<typename Tag, typename MultiIndexContainer>
